@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+header {
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .button-1 { 
+        display:inline-block;
+        position: absolute; 
+        top: 30px;
+        right: 10px;
+        background-color: white;
+        border-radius: 10px;
+        width: 180px;
+        height: 40px;
+        text-size-adjust: 100px;    
+    }
+
+    #logo {
+        position: relative;
+        top: 10px;
+        left: 30px;
+        float:left;
+        }  
+    
+nav{
+    max-width: 900px;
+    margin: 0px;
+    background-color: black;
+    font-size: 20px;
+    }
+
+    .Menu_hor{
+        list-style: none;
+        display: flex;
+        position: relative;
+        left: 540px;
+        text-align: left;
+    }
+
+    .Menu_hor > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        }
+
+    .Menu_hor > li:hover{
+        background-color: rgb(200, 194, 194);
+        /**/corregir/**/
+        block-size: 50px;
+        border-radius: 10px;
+        }
+
+    .Menu_ver{
+        position: fixed;
+        z-index: 10;
+        display: none;
+        list-style: none;
+        width: 200px;
+        background-color: rgba(255, 255, 255, 0.888);
+        border-radius: 10px;
+        }
+
+    .Menu_hor li:hover .Menu_ver{
+        display: block;
+        }
+
+    .Menu_ver li:hover{
+        text-decoration: underline;
+        border-radius: 10px;
+        }
+  
+    .Menu_ver li a{
+        display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 15px 15px 15px 20px;
+        }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        
+    .banner-1 {
+        position: relative;
+        display: block;
+        background-color: rgb(224,220,216);
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 900;
+        font-variant-position: super;
+        }
+
+/**/ No esta corriendo el texto/**/
+    #conte1 {
+        position: relative;
+        left: 150px;
+        bottom: 50%;}
+
+    #rising {
+        position: relative;
+        left: 100px;
+        top: 15px;
+    }
+
+    .banner-2 {
+        display: block;
+        
+    }
+
+    .conte2 {
+        position: relative;
+        left: 50px;
+        top: 200px;
+        font-size: 100px;
+        color: white;}
+        
