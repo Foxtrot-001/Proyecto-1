@@ -15,7 +15,8 @@ header {
         border-radius: 10px;
         width: 180px;
         height: 40px;
-        text-size-adjust: 100px;    
+        font-size: large;
+        font-weight: bold;
     }
 
     #logo {
@@ -30,13 +31,14 @@ nav{
     margin: 0px;
     background-color: black;
     font-size: 20px;
+    font-weight: 700;
     }
 
     .Menu_hor{
         list-style: none;
         display: flex;
         position: relative;
-        left: 540px;
+        left: 680px;
         text-align: left;
     }
 
@@ -49,18 +51,16 @@ nav{
 
     .Menu_hor > li:hover{
         background-color: rgb(200, 194, 194);
-        /**/corregir/**/
-        block-size: 50px;
         border-radius: 10px;
         }
 
     .Menu_ver{
         position: fixed;
-        z-index: 10;
+        z-index: 1;
         display: none;
         list-style: none;
         width: 200px;
-        background-color: rgba(255, 255, 255, 0.888);
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         }
 
@@ -72,7 +72,7 @@ nav{
         text-decoration: underline;
         border-radius: 10px;
         }
-  
+
     .Menu_ver li a{
         display: block;
         color: rgb(0, 0, 0);
@@ -93,15 +93,14 @@ body{
         background-color: rgb(224,220,216);
         text-transform: uppercase;
         font-size: 50px;
-        font-weight: 900;
-        font-variant-position: super;
+        font-weight:bolder;
+        height: 150px;
         }
 
-/**/ No esta corriendo el texto/**/
     #conte1 {
         position: relative;
-        left: 150px;
-        bottom: 50%;}
+        left: 110px;
+        }
 
     #rising {
         position: relative;
@@ -110,14 +109,38 @@ body{
     }
 
     .banner-2 {
-        display: block;
-        
+        margin: 0%;
+        padding: 0%;
+        display:inline;
     }
 
+    #music1 {
+        margin: 0%;
+        padding: 0%;
+        position: relative;
+        float: right;
+        width: 70%;
+        top: 0px;
+        z-index: 2;
+    }
+        
     .conte2 {
         position: relative;
-        left: 50px;
+        left: 100px;
         top: 200px;
-        font-size: 100px;
-        color: white;}
-        
+        font-size: 130px;
+        color: white;
+        z-index: 3;
+        white-space: pre;
+        font-weight: 600;
+    }
+
+    .conte3 {
+        position: relative;
+        left: 100px;
+        top: 220px;
+        font-size: 20px;
+        color: white;
+        z-index: 3;
+        white-space: pre;
+    }
